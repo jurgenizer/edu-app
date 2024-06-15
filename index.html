@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+>
+  </head>
+  <body class="content">
+    <h1>💖 Hello World!</h1>
+    <p>Welcome to your Electron application.</p>
+   
+    <p>Current theme source: <strong id="theme-source">System</strong></p>
+
+    <button id="toggle-dark-mode" class="button is-text">Toggle Dark Mode</button>
+    <button id="reset-to-system" class="button is-text">Reset to System Theme</button>
+
+
+    <script type="module" src="/src/renderer.js"></script>
+  </body>
+</html>
